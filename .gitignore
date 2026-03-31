@@ -1,0 +1,21 @@
+# Binary
+laddarr
+
+# Runtime data
+data/
+
+# Debug
+debug/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+yt-dlp
+
