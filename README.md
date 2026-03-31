@@ -1,38 +1,31 @@
 # Laddarr
 
-A lightweight, high-performance self-hosted PVR for Swedish TV. Automated SVT Play and TV4 Play downloads powered by [svtplay-dl](https://github.com/spaam/svtplay-dl).
+A lightweight, high-performance self-hosted PVR for Swedish TV. Automated SVT Play and TV4 Play downloads using [svtplay-dl](https://github.com/spaam/svtplay-dl).
 
-## ✨ Features
-- **Automated Tracking**: Monitor shows for new episodes and download them automatically.
-- **Glassmorphism UI**: A stunning, modern web interface with blurred backgrounds and vibrant accents.
-- **Kanban Calendar**: Track upcoming and historical releases in a weekly calendar view.
-- **Real-Time Queue**: Monitor active downloads with live progress bars and ETA updates.
-- **Swedish Native Support**: Handles Swedish relative dates and timezone offsets out of the box.
-- **Flexible Downloads**: Support for custom download paths and quality preferences per show.
+## Features
+- Automated Tracking: Monitor shows for new episodes and download them automatically.
+- Glassmorphism Web-UI: Modern interface with real-time download status.
+- Kanban Calendar: Historical and upcoming release tracking.
+- Native Swedish Support: Handles relative dates and timezone offsets.
+- Custom Library Rules: Per-show download paths and quality preferences.
 
-## 🚀 Getting Started
+## Usage
 
 Laddarr is currently in active development.
 
 ### Prerequisites
-1. [svtplay-dl](https://github.com/spaam/svtplay-dl) installed and available in your `PATH`.
-2. [Go](https://go.dev/) 1.21+ installed (for building).
+- [svtplay-dl](https://github.com/spaam/svtplay-dl) (must be in `PATH`)
+- Go 1.21+ (to build)
 
-### Installation
+### Build
 ```bash
-git clone https://github.com/imlinus/laddarr.git
-cd laddarr
 go build -o laddarr ./cmd/laddarr
 ```
 
-### Usage
-Run the binary:
+### Run
 ```bash
 ./laddarr
 ```
 
-By default, Laddarr listens on **port 5859**. Browse to [http://localhost:5859](http://localhost:5859) to start adding shows.
-
----
-*Built with ❤️ for the Swedish TV community.*
+Laddarr listens on port **5859** by default. Browse to [http://localhost:5859](http://localhost:5859) to add shows.
 
